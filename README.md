@@ -1,11 +1,14 @@
-# Sample Snack app
+## CES-26: Projeto React Native
+Projeto para visualização de valores e variações de ações a partir do React Native.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+Para a execução do projeto, esse repositório pode ser clonado, utilizando-se o expo-cli devidamente.
+Outra solução é acessar o projeto no Snack Expo, no [link](https://snack.expo.io/@italorennan/ces26-exame).
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+## Exemplo de teste
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+Na tela inicial do projeto, pode ser inserida a ação a ser acessada. Uma opção é usar o símbolo 'amzn', correspondente à ação da Amazon.
+Ao clicar em 'Buscar', é exibido o valor atual da ação e a sua variação em relação ao dia anterior.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+## Observações
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+Para a adaptação do projeto desenvolvido para Web, foram removidas a autenticação e a visualização de dados. Essas escolhas foram feitas devido à não utilização de um banco de dados no projeto em Native e à não correspondência da plataforma react-vis, usada a princípio na versão Web, para essa plataforma de desenvolvimento.
